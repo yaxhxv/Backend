@@ -9,7 +9,7 @@ const connectDB = async () => {
         useUnifiedTopology: true,
       });
   
-      console.log(`\n "DB connection successful" ${connectionInstance.connection.host}`);
+      console.log(`\n "DB connection successfull" ${connectionInstance.connection.host}`);
     } catch (error) {
       console.log("Error occurred", error);
       process.exit(1);
